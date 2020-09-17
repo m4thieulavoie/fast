@@ -255,6 +255,7 @@ export class DataGrid extends FASTElement {
     static generateColumns: (row: object) => DataGridColumn[];
     // (undocumented)
     generateHeader: boolean;
+    rowItemTemplate: ViewTemplate;
     rowsData: object[];
     // @internal (undocumented)
     slottedHeaderElements: HTMLElement[];
