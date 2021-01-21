@@ -944,6 +944,9 @@ export class AnchoredRegion extends FASTElement {
             case "left":
                 xTransformOrigin = "right";
                 right = layoutParentWidth - this.baseHorizontalOffset;
+                if (right === layoutParentWidth) {
+                    right = 0;
+                }
                 break;
 
             case "insetLeft":
@@ -1002,6 +1005,9 @@ export class AnchoredRegion extends FASTElement {
             case "top":
                 yTransformOrigin = "bottom";
                 bottom = layoutParentHeight - this.baseVerticalOffset;
+                if (bottom === layoutParentHeight) {
+                    bottom = 0;
+                }
                 break;
 
             case "insetTop":

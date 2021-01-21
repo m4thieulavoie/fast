@@ -1,3 +1,28 @@
+<!-- <fast-design-system-provider use-defaults>
+    <h1>Tooltip</h1>
+
+    <h2>Default</h2>
+    <div style="height: 400px; width: 400px; background: lightgray; display: flex;">
+        <fast-tooltip anchor="anchor-default" position="top">
+            Helpful text is helpful
+        </fast-tooltip>
+
+        <fast-button id="anchor-default">
+            anchor
+        </fast-button>
+    </div>
+
+    <div style="height: 400px; width: 400px; background: lightgray;">
+        <fast-tooltip anchor="anchor-default2" position="top">
+            Helpful text is helpful
+        </fast-tooltip>
+
+        <fast-button id="anchor-default2">
+            anchor
+        </fast-button>
+    </div>
+</fast-design-system-provider> -->
+
 <fast-design-system-provider use-defaults>
     <h1>Tooltip</h1>
 
@@ -15,8 +40,37 @@
         </fast-button>
     </div>
 
+    <div
+        style="
+            display: flex;
+            margin-top: 20px;
+            height: 400px;
+            width: 400px;
+            background: lightgray;
+        "
+    >
+        <fast-tooltip anchor="anchor-default2">
+            Helpful text is helpful
+        </fast-tooltip>
+        <fast-tooltip anchor="anchor-default2" visible="true" position="right">
+            Always visible
+        </fast-tooltip>
+
+        <fast-button id="anchor-default2" style="margin: 200px;">
+            anchor
+        </fast-button>
+    </div>
+
     <h2>Top</h2>
-    <div style="height: 400px; width: 400px; background: lightgray; overflow: scroll;">
+    <div
+        style="
+            display: flex;
+            height: 400px;
+            width: 400px;
+            background: lightgray;
+            overflow: scroll;
+        "
+    >
         <fast-tooltip position="top" anchor="anchor-top">
             Helpful text is helpful
         </fast-tooltip>
