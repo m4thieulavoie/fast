@@ -1,7 +1,16 @@
-# Change Log
+# Change Log - @microsoft/fast-color-explorer
 
-All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+This log was last generated on Fri, 09 Apr 2021 00:17:38 GMT and should not be manually modified.
+
+<!-- Start content -->
+
+## 1.6.19
+
+Fri, 09 Apr 2021 00:17:38 GMT
+
+### Patches
+
+- Bump @microsoft/site-utilities to v0.9.0 (chhol@microsoft.com)
 
 ## [1.6.19](https://github.com/Microsoft/fast/compare/@microsoft/fast-color-explorer@1.6.18...@microsoft/fast-color-explorer@1.6.19) (2021-04-06)
 
