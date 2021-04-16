@@ -1,8 +1,16 @@
 # Change Log - @microsoft/fast-creator
 
-This log was last generated on Fri, 09 Apr 2021 00:17:38 GMT and should not be manually modified.
+This log was last generated on Fri, 16 Apr 2021 00:16:03 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.7.0
+
+Fri, 16 Apr 2021 00:16:03 GMT
+
+### Patches
+
+- Bump @microsoft/fast-components to v1.20.2 (7559015+janechu@users.noreply.github.com)
 
 ## 0.7.0
 

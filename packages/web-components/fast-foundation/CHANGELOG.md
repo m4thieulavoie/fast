@@ -1,8 +1,22 @@
 # Change Log - @microsoft/fast-foundation
 
-This log was last generated on Fri, 09 Apr 2021 00:17:38 GMT and should not be manually modified.
+This log was last generated on Fri, 16 Apr 2021 00:16:03 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 1.18.0
+
+Fri, 16 Apr 2021 00:16:03 GMT
+
+### Minor changes
+
+- open up getter and setter functions to HTMLElement (nicholasrice@users.noreply.github.com)
+
+### Patches
+
+- fix anchored region positioning bugs (scomea@microsoft.com)
+- ensure DesignToken works with falsey values (nicholasrice@users.noreply.github.com)
+- add missing aria-expanded to the select template (mathieu.lavoie@logmein.com)
 
 ## 1.17.1
 

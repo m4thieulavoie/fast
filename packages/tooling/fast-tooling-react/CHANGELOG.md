@@ -1,8 +1,16 @@
 # Change Log - @microsoft/fast-tooling-react
 
-This log was last generated on Fri, 09 Apr 2021 00:17:38 GMT and should not be manually modified.
+This log was last generated on Fri, 16 Apr 2021 00:16:03 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 2.8.2
+
+Fri, 16 Apr 2021 00:16:03 GMT
+
+### Patches
+
+- fix: update styling to fit the width of the area the form is placed in (7559015+janechu@users.noreply.github.com)
 
 ## 2.8.1
 
