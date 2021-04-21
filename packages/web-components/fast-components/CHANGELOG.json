@@ -1,55 +1,40 @@
 {
-  "name": "@microsoft/fast-components",
-  "entries": [
-    {
-      "date": "Fri, 16 Apr 2021 00:16:03 GMT",
-      "tag": "@microsoft/fast-components_v1.20.2",
-      "version": "1.20.2",
-      "comments": {
-        "patch": [
-          {
-            "comment": "fix anchored region positioning bugs",
-            "author": "scomea@microsoft.com",
-            "commit": "b0aaad7a455e6fd08336ffe210eb4e2db72781c9",
-            "package": "@microsoft/fast-components"
-          }
-        ],
-        "none": [
-          {
-            "comment": "Bump @microsoft/fast-tooling to v0.18.0",
-            "author": "7559015+janechu@users.noreply.github.com",
-            "commit": "e8bbd10e718c44c6be0b655dde97958db5dc8570",
-            "package": "@microsoft/fast-components"
-          },
-          {
-            "comment": "Bump @microsoft/fast-web-utilities to v4.7.3",
-            "author": "7559015+janechu@users.noreply.github.com",
-            "commit": "832c1086c05099de4f7c9261dd85b7b32605538c",
-            "package": "@microsoft/fast-components"
-          },
-          {
-            "comment": "Bump @microsoft/fast-foundation to v1.18.0",
-            "author": "7559015+janechu@users.noreply.github.com",
-            "commit": "832c1086c05099de4f7c9261dd85b7b32605538c",
-            "package": "@microsoft/fast-components"
-          }
-        ]
-      }
-    },
-    {
-      "date": "Fri, 09 Apr 2021 00:17:38 GMT",
-      "tag": "@microsoft/fast-components_v1.20.1",
-      "version": "1.20.1",
-      "comments": {
-        "patch": [
-          {
-            "comment": "Bump @microsoft/fast-foundation to v1.17.1",
-            "author": "chhol@microsoft.com",
-            "commit": "b0d3816d089df8d353c14fb2667ad0aa8626dc8d",
-            "package": "@microsoft/fast-components"
-          }
-        ]
-      }
-    }
-  ]
+    "name": "@microsoft/fast-components",
+    "entries": [
+        {
+            "date": "Fri, 16 Apr 2021 01:19:08 GMT",
+            "tag": "@microsoft/fast-components_v1.20.1",
+            "version": "1.20.1",
+            "comments": {
+                "patch": [
+                    {
+                        "comment": "fix anchored region positioning bugs",
+                        "author": "scomea@microsoft.com",
+                        "commit": "b0aaad7a455e6fd08336ffe210eb4e2db72781c9",
+                        "package": "@microsoft/fast-components"
+                    }
+                ],
+                "none": [
+                    {
+                        "comment": "Bump @microsoft/fast-tooling to v0.18.0",
+                        "author": "7559015+janechu@users.noreply.github.com",
+                        "commit": "6130e34254ba97e5b7922b669e4e287cbb54585e",
+                        "package": "@microsoft/fast-components"
+                    },
+                    {
+                        "comment": "Bump @microsoft/fast-web-utilities to v4.7.3",
+                        "author": "7559015+janechu@users.noreply.github.com",
+                        "commit": "832c1086c05099de4f7c9261dd85b7b32605538c",
+                        "package": "@microsoft/fast-components"
+                    },
+                    {
+                        "comment": "Bump @microsoft/fast-foundation to v1.18.0",
+                        "author": "nicholasrice@users.noreply.github.com",
+                        "commit": "b6c2929d5b0eddc334b302db553a91681d4c4a0a",
+                        "package": "@microsoft/fast-components"
+                    }
+                ]
+            }
+        }
+    ]
 }
